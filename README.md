@@ -16,17 +16,19 @@
 
 `POST /login`  
 
-` { {  
+ { {  
 	"email": "teste@teste.com",  
 	"password": "123456"  
-}`    
+}
+
+
 
 ## Acesso aos produtos :
 # OBS => Necessário autenticação
 
 `GET /products`  
 
-`[  
+[  
 	{  
 		"id": 1,  
 		"name": "Hamburguer",  
@@ -41,5 +43,5 @@
 		"price": 16,  
 		"img": "https://i.ibb.co/djbw6LV/x-burgue.png"  
 	},   
-]`    
+]   
 
